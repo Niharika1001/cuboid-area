@@ -1,0 +1,65 @@
+*{
+    margin :0;
+   padding:0;
+   box-sizing: border-box;
+ }
+ body{
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   min-height: 100vh;
+   background-image: url('https://i.ibb.co/JQg83R3/amazing-landscapes-view-mountain-with-gold-hour-sunrise-morning-2d-illustration-67092-2031.jpg');
+   background-repeat: no-repeat;
+   background-size: cover;
+   background-position: center;
+   
+ }
+ .wrapper{
+   width:420px;
+   background: transparent;
+   color:#ffffff;
+   border:2px solid rgba(255,255,255,0.2);
+   backdrop-filter: blur(25px);
+   border-radius:10px;
+   padding:30px 40px;
+   
+ }
+ .wrapper h1{
+   font-size: 36px;
+   text-align: center;
+ }
+ .wrapper .input-box{
+   position :relative;
+   width:100%;
+   height :50px;
+   margin:30px 0;
+ }
+ .input-box input{
+   width :100%;
+   height :100%;
+   background: transparent;
+   border:none;
+   outline: none;
+   border :2px solid rgba(255,255,255,0.2);
+   border-radius:40px;
+   font-size: 16px;
+   color:white;
+   padding:20px 45px 20px 20px;
+ }
+ 
+ .input-box ::placeholder{
+   color:white;
+ }
+ .wrapper .calci{
+   font-size: 15px;
+   text-align: center;
+   margin-top:20px;
+   border-radius :20px;
+ }
+ button{
+   background: whitesmoke;
+   color:black;
+   border:none;
+   padding:5px;
+   border-radius: 40px;
+ }
